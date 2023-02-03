@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Estilos CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel= "stylessheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+
+    <!-- Icono -->
+    <link rel="icon" href="assets/icons/logo.ico"/>
+
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <title>Jane Doe | Desarrolladora Web</title>
+</head>
+
+<body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <h1>JANE DOE</h1>
+        <ul class="navegacion">
+          <li><a href="#sobremi" class="nav-link">Acerca de mí</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Sección Hero  -->
+    <section class="hero" id="sobremi">
+        <img
+          src="assets/images/foto-cv.png"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-titulo">Sobre mí</h2>
+          <p class="bio-texto">
+            <b>Nombre:</b> Jane Doe<br>
+            <b>Edad:</b> 25 años<br>
+            <b>Ubicación:</b> Córdoba, Argentina<br>
+            <b>Email:</b> jdoe@gmail.com<br>
+            <b>Teléfono:</b> (671) 421-4395
+          </p>
+        </div>
+    </section>
+
+    <!-- Más sobre Mí -->
+    <section class="mas-sobre">
+      <h2>Experiencia</h2>
+      <p>
+        08/2020 - 08/2022 Junior Front-End Developer | asesora.com
+      </p>
+      <p>
+        04/2019 - 05/2020 Front-End Developer UX team | Allianz Seguros
+      </p>
+      <p>
+        03/2017 - 09-2018 Junior Front-End Developer | TravelPerk
+      </p>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="header-habilidades">Mis mejores habilidades</h2>
+        <div class="contenedor-habilidades">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-html-5.svg"
+              alt=""
+              loading="lazy"
+              class="tarjeta-icono"
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="tarjeta-icono"
+            />
+            <img
+              src="assets/icons/icons8-javascript.svg"
+              alt=""
+              loading="lazy"
+              class="tarjeta-icono"
+            />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-bootstrap.svg"
+              alt=""
+              loading="lazy"
+              class="tarjeta-icono"
+            />
+            <img
+              src="assets/icons/icons8-react-native.svg"
+              alt=""
+              loading="lazy"
+              class="tarjeta-icono"
+            />
+            <img
+              src="assets/icons/icons8-git.svg"
+              alt=""
+              loading="lazy"
+              class="tarjeta-icono"
+            />
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
+        <div class="contenedor-de-proyectos">
+          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+            <img
+              src="assets/images/expenseTracker.png"
+              alt="rastreador-de-gastos"
+              loading="lazy"
+              class="foto-de-proyecto"
+            />
+            <h3 class="titulo-de-proyecto">Rastreador de Gastos</h3>
+            <p class="detalles-de-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlaces-de-proyecto">Echale un vistazo!</a>
+          </div>
+          <div class="contenedor-de-proyecto tarjeta-de-proyecto ">
+            <img
+              src="assets/images/netflixClone.png"
+              alt="netflix-clone"
+              loading="lazy"
+              class="foto-de-proyecto"
+            />
+            <h3 class="titulo-de-proyecto">Netflix Clone</h3>
+            <p class="detalles-de-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlaces-de-proyecto">Echale un vistazo!</a>
+          </div>
+          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+            <img
+              src="assets/images/greenyEarth.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="foto-de-proyecto"
+            />
+            <h3 class="titulo-de-proyecto">Greeny Earth</h3>
+            <p class="detalles-de-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlaces-de-proyecto">Echale un vistazo!</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección Contacto-->
+      <section class="contacto" id="contacto">
+        <div class="formulario-contacto-contenedor">
+          <div class="container">
+            <div class="text">
+                <h2>Contactame</h2>
+            </div>
+          </div>
+          <form id="form">
+            <div>
+            <label for="username">Nombre</label>
+            <i class="fas fa-user"></i>
+            <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Escribe tu nombre"
+                class="input-field"
+              />
+              <i class="fas fa-exclamation-circle failure-icon"></i>
+              <i class="far fa-check-circle success-icon"></i>
+              <div class="error"></div>
+            </div>
+
+            <div>
+            <label for="email">Email</label>
+            <i class="far fa-envelope"></i>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Ingresa tu email"
+                class="input-field"
+            />
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+            <div class="error"></div>
+            </div>
+
+            <div>
+            <label for="mensaje">Mensaje</label>
+            <i class="fa-regular fa-message"></i>
+            <input 
+                type="message"
+                name="password"
+                id="password"
+                placeholder= "Deja tu mensaje "
+                class="input-field"
+            />
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+            <div class="error"></div>
+            </div>
+
+            <input
+                type="submit"
+                value="Enviar"
+                id="submit-btn"
+                class="submit-btn"
+              />
+          </form>
+        </div>
+      </div>
+    </section>
+        
+    <!-- Sección de redes sociales - Fijado a la derecha -->
+    <div class="sociales">
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-twitter-circled.gif"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+        /></a>
+
+    <!-- Vuelve al comienzo  -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="desplazarse-hacia-arriba"
+    /></i>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/e655ea347c.js" crossorigin="anonymous"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    
+</body>
+</html>
